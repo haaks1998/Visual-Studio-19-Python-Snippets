@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>from * import *</Title>
+      <Shortcut>import</Shortcut>
+      <Description>Code snippet for import statement
+*******************************************
+        from package import module
+*******************************************   
+      </Description>
+      <Author>Hussain Abdullah</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>package</ID>
+          <ToolTip>Package Name</ToolTip>
+          <Default>package</Default>
+        </Literal>
+        <Literal>
+          <ID>module</ID>
+          <ToolTip>Module Name</ToolTip>
+          <Default>module</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[from $package$ import $module$
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>map lambda</Title>
+      <Shortcut>lambda</Shortcut>
+      <Description>Code snippet for lambda mapping
+********************************************************************
+        map(lambda arguments: expression, objects)
+********************************************************************   
+      </Description>
+      <Author>Hussain Abdullah</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>arguments</ID>
+          <ToolTip>list of arguments</ToolTip>
+          <Default>arguments</Default>
+        </Literal>
+        <Literal>
+          <ID>expression</ID>
+          <ToolTip>expression of lambda</ToolTip>
+          <Default>expression</Default>
+        </Literal>
+        <Literal>
+          <ID>object</ID>
+          <ToolTip>list of objects</ToolTip>
+          <Default>[]</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[map(lambda $arguments$:$expression$, $object$)
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

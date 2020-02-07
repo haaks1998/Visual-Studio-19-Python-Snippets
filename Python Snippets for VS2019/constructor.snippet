@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>def __init__()</Title>
+      <Shortcut>init</Shortcut>
+      <Description>Code snippet for constructor
+*******************************************
+        def __init__(self,args):
+                pass
+                      
+*******************************************   
+      </Description>
+      <Author>Hussain Abdullah</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWithStatement</SnippetType>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>args</ID>
+          <ToolTip>The list of arguments</ToolTip>
+          <Default>args</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[def __init__(self,$args$):
+    $selected$
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

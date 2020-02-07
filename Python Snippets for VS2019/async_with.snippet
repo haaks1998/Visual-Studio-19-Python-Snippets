@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>async with</Title>
+      <Shortcut>with</Shortcut>
+      <Description>Code snippet for async with statement
+*******************************************
+      async with expression as variable:
+              pass
+*******************************************   
+      </Description>
+      <Author>Hussain Abdullah</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWithStatement</SnippetType>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>expression</ID>
+          <ToolTip>The expression of with statement</ToolTip>
+          <Default>expression</Default>
+        </Literal>
+        <Literal>
+          <ID>variable</ID>
+          <ToolTip>The variable from expression</ToolTip>
+          <Default>variable</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[async with $expression$ as $variable$:
+    $selected$
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

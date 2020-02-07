@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>try-except-else</Title>
+      <Shortcut>try</Shortcut>
+      <Description>Code snippet for an try except else statement
+*******************************************
+        try:
+                pass
+        except expression as identifier
+                pass
+        else:
+                pass
+*******************************************  
+      </Description>
+      <Author>Hussain Abdullah</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWithStatement</SnippetType>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>expression</ID>
+          <ToolTip>The except expression</ToolTip>
+          <Default>expression</Default>
+        </Literal>
+        <Literal>
+          <ID>identifier</ID>
+          <ToolTip>The except identifier</ToolTip>
+          <Default>identifier</Default>
+        </Literal>
+        <Literal>
+          <ID>except</ID>
+          <ToolTip>The code inside the except statement</ToolTip>
+          <Default>pass</Default>
+        </Literal>
+        <Literal>
+          <ID>else</ID>
+          <ToolTip>The condition inside the else statement</ToolTip>
+          <Default>pass</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[try:
+    $selected$
+except $expression$ as $identifier$:
+    $except$
+else:
+    $else$
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

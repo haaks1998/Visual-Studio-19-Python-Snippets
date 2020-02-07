@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>open(file)</Title>
+      <Shortcut>open</Shortcut>
+      <Description>Code snippet for opening file
+********************************************************************
+        fileName = open("fileLocation", "mode")
+********************************************************************   
+      </Description>
+      <Author>Hussain Abdullah</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>fileName</ID>
+          <ToolTip>file Name</ToolTip>
+          <Default>fileName</Default>
+        </Literal>
+        <Literal>
+          <ID>loc</ID>
+          <ToolTip>full file location with file name and format</ToolTip>
+          <Default>fileLocation</Default>
+        </Literal>
+        <Literal>
+          <ID>mode</ID>
+          <ToolTip>mode can be w for "write mode",r for "read mode",a for "append mode" or r+ for "read and write mode"</ToolTip>
+          <Default>Mode</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[$fileName$ = open($loc$, $mode$)
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>async for-else</Title>
+      <Shortcut>for</Shortcut>
+      <Description>Code snippet for async for-else statement
+*******************************************
+          async for target in iter:
+                  pass
+          else:
+                  pass
+*******************************************   
+      </Description>
+      <Author>Hussain Abdullah</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWithStatement</SnippetType>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>target</ID>
+          <ToolTip>The target of for loop</ToolTip>
+          <Default>target</Default>
+        </Literal>
+        <Literal>
+          <ID>iters</ID>
+          <ToolTip>The iterration set for for loop</ToolTip>
+          <Default>iters</Default>
+        </Literal>
+        <Literal>
+          <ID>else</ID>
+          <ToolTip>The else part of loop</ToolTip>
+          <Default>pass</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[async for $target$ in $iters$:
+    $selected$
+else:
+    $else$
+$end$]]></Code>
+    </Snippet>   
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>docs</Title>
+      <Shortcut>docs</Shortcut>
+      <Description>Code snippet for documentation header
+**********************************************************
+	      """
+	      File: moduleName
+	      Author: authorName
+	      Email: authorEmail
+	      Github: authorGithub 
+	      Description: moduleDiscrpition
+	      """
+**********************************************************   
+      </Description>
+      <Author>Hussain Abdullah</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>moduleName</ID>
+          <ToolTip>Name of the python module</ToolTip>
+          <Default>moduleName</Default>
+        </Literal>
+        <Literal>
+          <ID>Name</ID>
+          <ToolTip>Name of the module author</ToolTip>
+          <Default>authorName</Default>
+        </Literal>
+        <Literal>
+          <ID>Email</ID>
+          <ToolTip>Name of the module author</ToolTip>
+          <Default>authorEmail</Default>
+        </Literal>
+        <Literal>
+          <ID>Github</ID>
+          <ToolTip>Name of the python module</ToolTip>
+          <Default>authorGithub</Default>
+        </Literal>
+        <Literal>
+          <ID>Description</ID>
+          <ToolTip>Description of the python module</ToolTip>
+          <Default>Description</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA["""
+File: $moduleName$
+Author: $Name$
+Email: $Email$
+Github: $Github$ 
+Description: $Description$
+"""
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

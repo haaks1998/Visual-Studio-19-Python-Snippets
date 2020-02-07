@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>async for</Title>
+      <Shortcut>for</Shortcut>
+      <Description>Code snippet for async for statement
+*******************************************
+        async for target in iter:
+                pass
+*******************************************   
+      </Description>
+      <Author>Hussain Abdullah</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWithStatement</SnippetType>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>target</ID>
+          <ToolTip>The target of for loop</ToolTip>
+          <Default>target</Default>
+        </Literal>
+        <Literal>
+          <ID>iters</ID>
+          <ToolTip>The iterration set for for loop</ToolTip>
+          <Default>iters</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[async for $target$ in $iters$:
+    $selected$
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>lambda</Title>
+      <Shortcut>lambda</Shortcut>
+      <Description>Code snippet for an if else statement
+*******************************************
+          lambda parameters: expression
+*******************************************   
+      </Description>
+      <Author>Hussain Abdullah</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWithStatement</SnippetType>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>parameters</ID>
+          <ToolTip>The parameters of lambda function</ToolTip>
+          <Default>parameters</Default>
+        </Literal>
+        <Literal>
+          <ID>expression</ID>
+          <ToolTip>The code inside lambda statement</ToolTip>
+          <Default>expression</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[lambda $parameters$: $expression$
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>self.var = var</Title>
+      <Shortcut>self</Shortcut>
+      <Description>Code snippet for instance variable
+*******************************************
+        self.var = var
+*******************************************   
+      </Description>
+      <Author>Hussain Abdullah</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWithStatement</SnippetType>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>var</ID>
+          <ToolTip>Instance Variable Name</ToolTip>
+          <Default>var</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="Python"><![CDATA[self.$var$ = $var$
+$end$]]></Code>
+    </Snippet>  
+  </CodeSnippet>
+</CodeSnippets>
