@@ -9,7 +9,7 @@
 ## List of Snippets:
 |           Feature         | Usuage | Code |
 |           ---             | --- | --- |
-| async def                 |  | ```async def funcName(parameters):<br/>&nbsp;pass ``` |
+| async def                 |  | async def funcName(parameters):<br/>&nbsp;pass |
 | async for                 |  | ``` ``` |
 | async for else            |  | ``` ``` |
 | async with                |  | ``` ``` |
