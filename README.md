@@ -9,7 +9,7 @@
 ## List of Snippets:
 |           Feature         | Usuage | Code |
 |           ---             | --- | --- |
-| async def                 |  | *async def funcName(parameters):<br/>&emsp;&emsp;pass* |
+| async def                 | * type <kbd>def</kbd> <br/>* Press <kbd>Tab ⇆</kbd> twice <br/>* Select <kbd>asyn def()</kbd><br/>* Press <kbd>⏎ Enter</kbd>  | ***async def funcName( parameters ):<br/>&emsp;&emsp;&emsp;pass*** |
 | async for                 |  | ``` ``` |
 | async for else            |  | ``` ``` |
 | async with                |  | ``` ``` |
