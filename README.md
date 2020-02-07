@@ -8,7 +8,7 @@
 > The procedure of installing snippets in your Visual Studio 2019 is explained in [Installation Section](https://github.com/haaks1998/Visual-Studio-19-Python-Snippets#Installation) <br/>
 ## List of Snippets:
 |           Feature         |                                                                   Usuage                                                                       | Code |
-|           ---             |                                                                   ---                                                                          | :---: |
+|           ---             |                                                                   ---                                                                          | :--- |
 | async def                 |<br/><br/> - type <kbd>def</kbd> <br/>- Press <kbd>Tab ⇆</kbd> twice <br/>- Select <kbd>async def()</kbd><br/>- Press <kbd>⏎ Enter</kbd><br/><br/>                       | <sup> async def funcName( parameters ):<br/>&emsp;&emsp;&emsp; pass <br/> </sup>|
 | async for                 |<br/><br/> - type <kbd>for</kbd> <br/>- Press <kbd>Tab ⇆</kbd> twice <br/>- Select <kbd>async for</kbd><br/>- Press <kbd>⏎ Enter</kbd></kbd><br/><br/>                  | <sup> async for target in iters:<br/>&emsp;&emsp;&emsp; pass <br/> </sup>|
 | async for else            |<br/><br/> - type <kbd>for</kbd> <br/>- Press <kbd>Tab ⇆</kbd> twice <br/>- Select <kbd>async for-else</kbd><br/>- Press <kbd>⏎ Enter</kbd></kbd><br/><br/>              | <sup> async for target in iters:<br/>&emsp;&emsp;&emsp; pass<br/>else:<br/>&emsp;&emsp;&emsp; pass <br/> </sup>|
